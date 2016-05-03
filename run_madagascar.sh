@@ -29,7 +29,7 @@ sfdisfil > impulse.asc col=1 format="%e " number=n < impulse.rsf
 
 #< impulse1.rsf sfwindow | sfgraph title='Ricker' unit2= label2=amplitude | sfpen
 
-sfawefd3d < impulse1.rsf vel=vel.rsf sou=sou.rsf rec=rec.rsf den=den.rsf > dat.rsf verb=y free=y expl=n snap=y dabc=y den=den.rsf jdata=1 jsnap=80000 nbell=1 sinc=n
+fawefd3d < impulse1.rsf vel=vel.rsf sou=sou.rsf rec=rec.rsf den=den.rsf > dat.rsf verb=y free=y expl=n snap=y dabc=y den=den.rsf jdata=1 jsnap=80000 nbell=1 sinc=n
 
 #echo 'label1=z unit1=m label2=x unit2=m' >> wfl.rsf
 #< wfl.rsf sfgrey gainpanel=a pclip=99 color=j scalebar=y | sfpen
